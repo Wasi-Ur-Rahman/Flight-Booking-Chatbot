@@ -1,0 +1,31 @@
+{
+  "responseId": "9b78e5b2-61ab-44fc-bf15-364a3e8f2987-afbcf665",
+  "queryResult": {
+    "queryText": "cancel my flight",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentText": "Okay. Your flight is cancelled. Thank you for being with us.",
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            "Okay. Your flight is cancelled. Thank you for being with us."
+          ]
+        }
+      }
+    ],
+    "intent": {
+      "name": "projects/mycompanion-pjrx/locations/global/agent/intents/9f8b0b4d-25a5-42c9-9b9a-b541e08e8e77",
+      "displayName": "CancelFlight"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en",
+    "sentimentAnalysisResult": {
+      "queryTextSentiment": {
+        "score": -0.7,
+        "magnitude": 0.7
+      }
+    }
+  },
+  "agentId": "0d3ea5ad-1fc2-4acf-836d-60a7b92b34cb"
+}
